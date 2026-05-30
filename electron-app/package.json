@@ -1,0 +1,13 @@
+{
+  "name": "electron-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Electron desktop shell for ai-browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^42.3.0"
+  }
+}
