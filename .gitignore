@@ -1,0 +1,46 @@
+# Secrets - never commit
+.env
+.env.local
+.env.*.local
+
+# Node / npm
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Angular
+.angular/
+
+# Rust / Cargo
+target/
+
+# napi-rs
+*.node
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.egg-info/
+
+# Electron
+release/
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
