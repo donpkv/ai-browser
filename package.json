@@ -1,0 +1,15 @@
+{
+  "name": "ai-browser",
+  "version": "0.0.0",
+  "private": true,
+  "description": "AI-oriented web browser: Electron + Angular + Rust engine + RAG Knowledge Mode",
+  "license": "MIT",
+  "workspaces": [
+    "electron-app",
+    "rust-engine"
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
