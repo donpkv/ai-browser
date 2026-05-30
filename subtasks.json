@@ -1,0 +1,168 @@
+{
+  "_schema": "Each entry is a micro-phase. status: planned | in_progress | done. One commit per phase.",
+  "phases": [
+    {
+      "id": "0.0",
+      "title": "git init with .gitignore",
+      "status": "done"
+    },
+    {
+      "id": "0.1",
+      "title": "add README.md",
+      "status": "done"
+    },
+    {
+      "id": "0.2",
+      "title": "add .env and .env.example",
+      "status": "done"
+    },
+    {
+      "id": "0.3",
+      "title": "add subtasks.json",
+      "status": "done"
+    },
+    {
+      "id": "0.4",
+      "title": "add root package.json with npm workspaces",
+      "status": "planned"
+    },
+    {
+      "id": "0.5",
+      "title": "add docs/ folder with project doc",
+      "status": "planned"
+    },
+    {
+      "id": "1.0",
+      "title": "create electron-app/, install Electron",
+      "status": "planned"
+    },
+    {
+      "id": "1.1",
+      "title": "main.js opens an empty BrowserWindow",
+      "status": "planned"
+    },
+    {
+      "id": "1.2",
+      "title": "preload.js + contextBridge",
+      "status": "planned"
+    },
+    {
+      "id": "1.3",
+      "title": "Angular CLI scaffold inside electron-app/renderer/",
+      "status": "planned"
+    },
+    {
+      "id": "1.4",
+      "title": "TypeScript inside Angular (concepts doc only)",
+      "status": "planned"
+    },
+    {
+      "id": "1.5",
+      "title": "Angular signals (concepts doc only)",
+      "status": "planned"
+    },
+    {
+      "id": "1.6",
+      "title": "Tailwind CSS setup inside Angular",
+      "status": "planned"
+    },
+    {
+      "id": "1.7",
+      "title": "Electron-Angular dev/prod loader",
+      "status": "planned"
+    },
+    {
+      "id": "1.8",
+      "title": "Hello AI Browser end-to-end demo",
+      "status": "planned"
+    },
+    {
+      "id": "2.0",
+      "title": "TabStrip Angular component",
+      "status": "planned"
+    },
+    {
+      "id": "2.1",
+      "title": "AddressBar Angular component",
+      "status": "planned"
+    },
+    {
+      "id": "2.2",
+      "title": "Renderer to main IPC (clicking Go sends URL)",
+      "status": "planned"
+    },
+    {
+      "id": "3.0",
+      "title": "WebContentsView per tab in main process",
+      "status": "planned"
+    },
+    {
+      "id": "3.1",
+      "title": "Wire address bar loadURL to active tab",
+      "status": "planned"
+    },
+    {
+      "id": "3.2",
+      "title": "Back / forward / reload buttons",
+      "status": "planned"
+    },
+    {
+      "id": "3.3",
+      "title": "Active-tab switching shows/hides views",
+      "status": "planned"
+    },
+    {
+      "id": "4.0",
+      "title": "Install better-sqlite3, create history table",
+      "status": "planned"
+    },
+    {
+      "id": "4.1",
+      "title": "Insert history on every navigation",
+      "status": "planned"
+    },
+    {
+      "id": "4.2",
+      "title": "Bookmarks table + UI",
+      "status": "planned"
+    },
+    {
+      "id": "5.0",
+      "title": "AI sidebar component",
+      "status": "planned"
+    },
+    {
+      "id": "5.1",
+      "title": "Read current page text from webContents",
+      "status": "planned"
+    },
+    {
+      "id": "5.2",
+      "title": "Mock LLM call (echo question back)",
+      "status": "planned"
+    },
+    {
+      "id": "6.0",
+      "title": "Install Ollama, pull mistral:7b",
+      "status": "planned"
+    },
+    {
+      "id": "6.1",
+      "title": "Node client for Ollama streaming API",
+      "status": "planned"
+    },
+    {
+      "id": "6.2",
+      "title": "Wire sidebar to streaming LLM responses",
+      "status": "planned"
+    }
+  ],
+  "future_phases_outline": [
+    "Phase 7-14: Rust rendering engine via napi-rs",
+    "Phase 15-17: Knowledge Mode UI",
+    "Phase 18-22: FastAPI Knowledge Service",
+    "Phase 23-25: Auto-ingestion pipeline",
+    "Phase 26-28: RAG chat with citations",
+    "Phase 29-30: Packaging with electron-builder"
+  ]
+}
